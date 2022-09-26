@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slide Show Presentation</title>
+  <link rel="stylesheet" href="reveal.js/dist/reset.css">
+  <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="reveal.js/dist/theme/sky.css" id="theme">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+</head>
+
+<body>
+
+  <div class="reveal">
+
+    <!-- Any section element inside of this container is displayed as a slide -->
+    <div class="slides">
+      <section>
+        <a href="https://slides.com">
+          <img src="image/freecode.png" alt="reveal.js logo"
+            style="height: 180px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+        </a>
+        <h3>The Slide Show Presentation</h3>
+        <p>
+          <small>Created by <a href="https://www.freecodecamp.org/">Daniel Borowski</a> and <a
+              href="https://github.com/freeCodeCamp/how-to-contribute-to-open-source">contributors</a></small>
+        </p>
+      </section>
+
+      <section>
+        <h2>Hello Friends</h2>
+        <p>
+          A great way to improve your skills when learning to code is by solving coding challenges. Solving different
+          types of challenges and puzzles can help you become a better problem solver, learn the intricacies of a
+          programming language, prepare for job interviews, learn new algorithms, and more.
+        </p>
+      </section>
+
+      <!-- Example of nested vertical slides -->
+      <section>
+        <section>
+          <h2>What is freeCodeCamp?</h2>
+          <p>freeCodeCamp is a community of millions of people around the world who are learning to code together.</p>
+          <a href="#/2/1" class="navigate-down">
+            <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238"
+              data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+          </a>
+        </section>
+        <section>
+          <h2>How can you help me learn to code?</h2>
+          <p>You'll learn to code by completing coding challenges and building projects. You'll also earn verified
+            certifications along the way.</p>
+        </section>
+        <section>
+          <h2>Is freeCodeCamp really free?</h2>
+          <p>Yes. Every aspect of freeCodeCamp is 100% free.</p>
+          <br>
+          <a href="#/2">
+            <img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178"
+              height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
+          </a>
+        </section>
+      </section>
+
+      <section>
+        <h2>Can freeCodeCamp help me get a job as a software developer?</h2>
+        <p>
+          Yes. Every year, thousands of people who join the freeCodeCamp community get their first software developer
+          job. If you're curious, you can <a href="https://www.linkedin.com/school/free-code-camp/people/">browse our
+            alumni network on LinkedIn here.</a>
+        </p>
+      </section>
+
+      <section data-visibility="hidden">
+        <h2>How big is the freeCodeCamp community?</h2>
+        <p>
+          If you add up all the people who use our learning platform, read our publication, watch our YouTube channel,
+          and post on our forum, every month we help millions of people learn about coding and technology.
+        </p>
+      </section>
+
+      <section data-auto-animate>
+        <h2 data-id="code-title">Is freeCodeCamp a nonprofit?</h2>
+        <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
+					Yes, 
+          we are a 501(c)(3) donor-supported public charity. 
+          You can download our IRS Determination Letter here.
+					</code></pre>
+        <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+      </section>
+
+      <section data-auto-animate>
+        <h2 data-id="code-title">With freecodecamp</h2>
+        <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"><script type="text/template">
+						import React, { useState } from 'react';
+
+						function Example() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    <div>
+						      <p>You clicked {count} times</p>
+						      <button onClick={() => setCount(count + 1)}>
+						        Click me
+						      </button>
+						    </div>
+						  );
+						}
+
+						function SecondExample() {
+						  const [count, setCount] = useState(0);
+
+						  return (
+						    <div>
+						      <p>You clicked {count} times</p>
+						      <button onClick={() => setCount(count + 1)}>
+						        Click me
+						      </button>
+						    </div>
+						  );
+						}
+					</script></code></pre>
+      </section>
+
+      <section>
+        <h2>Is freeCodeCamp a coding bootcamp?</h2>
+        <p>No. A lot of coding bootcamps use freeCodeCamp as part of their curriculum, though.
+        </p>
+        <p>
+          Hold down the <strong>alt</strong> key (<strong>ctrl</strong> in Linux) and click on any element to zoom
+          towards it using <a href="http://lab.hakim.se/zoom-js">zoom.js</a>. Click again to zoom back out.
+        </p>
+        <p>
+          (NOTE: Use ctrl + click in Linux.)
+        </p>
+      </section>
+
+      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+        <h2>Should I complete all of the coding challenges in order?</h2>
+        <p>We’ve put a lot of thought into how we introduce concepts. But you’re free to jump around.</p>
+        <div class="r-hstack justify-center">
+          <div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+          </div>
+          <div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+          </div>
+          <div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+          </div>
+        </div>
+      </section>
+      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+        <div class="r-hstack justify-center">
+          <div data-id="box1" data-auto-animate-delay="0"
+            style="background: chartreuse; width: 150px; height: 100px; margin: 10px;"></div>
+          <div data-id="box2" data-auto-animate-delay="0.1"
+            style="background: mediumvioletred; width: 150px; height: 100px; margin: 10px;"></div>
+          <div data-id="box3" data-auto-animate-delay="0.2"
+            style="background: orange; width: 150px; height: 100px; margin: 10px;"></div>
+        </div>
+        <h2 style="margin-top: 20px;">Coding Bootcamp</h2>
+      </section>
+      <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+        <div class="r-stack">
+          <div data-id="box1" style="background: chartreuse; width: 300px; height: 300px; border-radius: 200px;"></div>
+          <div data-id="box2" style="background: mediumvioletred; width: 200px; height: 200px; border-radius: 200px;">
+          </div>
+          <div data-id="box3" style="background: orange; width: 100px; height: 100px; border-radius: 200px;"></div>
+        </div>
+        <h2 style="margin-top: 20px;">Coding Bootcamp</h2>
+      </section>
+
+      <section>
+        <h2>Do I have to use CodePen for the front end projects?</h2>
+        <p>
+          As long as your code is publicly viewable somewhere on the internet, and you have a live demo, you can use
+          whatever tools you want.
+        </p>
+      </section>
+
+      <section data-markdown>
+        <script type="text/template">
+						## How did freeCodeCamp get started?
+
+						Write content using inline or external Markdown.
+						Instructions and more info available in the [docs](https://revealjs.com/markdown/).
+
+						```html []
+						<section data-markdown>
+						  ## How did freeCodeCamp get started?
+
+            Quincy started the freeCodeCamp community in 2014. He is now just one of thousands of active contributors.
+						</section>
+						```
+					</script>
+      </section>
+
+      <section>
+        <p>Add the <code>r-fit-text</code> class to auto-size text</p>
+        <h2 class="r-fit-text">FREECODECAMP</h2>
+      </section>
+
+      <section>
+        <section id="fragments">
+          <h2>Does freeCodeCamp have a mobile app?</h2>
+          <p>We are building a fully-featured Android app...</p>
+          <p class="fragment">... In the meantime, you can learn on the go by watching freeCodeCamp's YouTube channel
+            ...</p>
+          <p><span class="fragment">... And</span> <span class="fragment">if you want a mobile app designed specifically
+              for learning to code,</span> <span class="fragment">we recommend Grasshopper.</span></p>
+
+          <aside class="notes">
+            This slide has fragments which are also stepped through in the notes window.
+          </aside>
+        </section>
+        <section>
+          <h2>Fragment Styles</h2>
+          <p>There's different types of fragments, like:</p>
+          <p class="fragment grow">grow</p>
+          <p class="fragment shrink">shrink</p>
+          <p class="fragment fade-out">fade-out</p>
+          <p>
+            <span style="display: inline-block;" class="fragment fade-right">fade-right, </span>
+            <span style="display: inline-block;" class="fragment fade-up">up, </span>
+            <span style="display: inline-block;" class="fragment fade-down">down, </span>
+            <span style="display: inline-block;" class="fragment fade-left">left</span>
+          </p>
+          <p class="fragment fade-in-then-out">fade-in-then-out</p>
+          <p class="fragment fade-in-then-semi-out">fade-in-then-semi-out</p>
+          <p>Highlight <span class="fragment highlight-red">red</span> <span class="fragment highlight-blue">blue</span>
+            <span class="fragment highlight-green">green</span>
+          </p>
+        </section>
+      </section>
+
+      <section id="transitions">
+        <h2>Can I get a job at freeCodeCamp?</h2>
+        <p>
+          We're a small donor-supported charity. We've hired several prominent contributors from within the freeCodeCamp
+          community, but you're much more likely to get a job at one of the hundreds of companies where freeCodeCamp
+          alumni work., like: <br>
+          <a href="?transition=none#/transitions">None</a> -
+          <a href="?transition=fade#/transitions">Fade</a> -
+          <a href="?transition=slide#/transitions">Slide</a> -
+          <a href="?transition=convex#/transitions">Convex</a> -
+          <a href="?transition=concave#/transitions">Concave</a> -
+          <a href="?transition=zoom#/transitions">Zoom</a>
+        </p>
+      </section>
+
+      <section id="themes">
+        <h2>Can I invest in freeCodeCamp?</h2>
+        <p>
+          We are a public charity, so technically you already own freeCodeCamp. Nobody can own shares of a public
+          charity, and it cannot be bought or sold. So you'll continue to own a part of freeCodeCamp whether you like it
+          or not. 😉<br>
+          <!-- Hacks to swap themes after the page has loaded. Not flexible and only intended for the reveal.js demo deck. -->
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/black.css'); return false;">Black
+            (default)</a> -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/white.css'); return false;">White</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/league.css'); return false;">League</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/sky.css'); return false;">Sky</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/beige.css'); return false;">Beige</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/simple.css'); return false;">Simple</a>
+          <br>
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/serif.css'); return false;">Serif</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/blood.css'); return false;">Blood</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/night.css'); return false;">Night</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/moon.css'); return false;">Moon</a>
+          -
+          <a href="#"
+            onclick="document.getElementById('theme').setAttribute('href','reveal.js/dist/theme/solarized.css'); return false;">Solarized</a>
+        </p>
+      </section>
+
+      <section>
+        <section data-background="#dddddd">
+          <h2> TopCoder</h2>
+          <p>
+            TopCoder is one of the original platforms for competitive programming online. It provides a list of
+            algorithmic challenges from the past that you can complete on your own directly online using their code
+            editor.
+          </p>
+          <a href="#" class="navigate-down">
+            <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238"
+              data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
+          </a>
+        </section>
+        <section data-background-gradient="linear-gradient(to bottom, #283b95, #17b2c3)">
+          <h2>Gradient Backgrounds</h2>
+          <pre><code class="hljs html wrap">&lt;section data-background-gradient=
+							"linear-gradient(to bottom, #ddd, #191919)"&gt;</code></pre>
+        </section>
+        <section data-background="https://static.slid.es/reveal/image-placeholder.png">
+          <h2>Image Backgrounds</h2>
+          <pre><code class="hljs html">&lt;section data-background="image.png"&gt;</code></pre>
+        </section>
+        <section data-background="https://static.slid.es/reveal/image-placeholder.png" data-background-repeat="repeat"
+          data-background-size="100px">
+          <h2>Tiled Backgrounds</h2>
+          <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background="image.png" data-background-repeat="repeat" data-background-size="100px"&gt;</code></pre>
+        </section>
+        <section data-background-video="https://static.slid.es/site/homepage/v1/homepage-video-editor.mp4"
+          data-background-color="#000000">
+          <div style="background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px;">
+            <h2>Video Backgrounds</h2>
+            <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-video="video.mp4,video.webm"&gt;</code></pre>
+          </div>
+        </section>
+        <section data-background="http://i.giphy.com/90F8aUepslB84.gif">
+          <h2>... and GIFs!</h2>
+        </section>
+      </section>
+
+      <section data-transition="slide" data-background="#567895" data-background-transition="zoom">
+        <h2>Coderbyte</h2>
+        <p>
+          Coderbyte provides 200+ coding challenges you can solve directly online in one of 10 programming languages
+          (check out this example). The challenges range from easy (finding the largest word in a string) to hard (print
+          the maximum cardinality matching of a graph).
+        </p>
+        <pre><code class="hljs javascript">Reveal.configure({ backgroundTransition: 'zoom' })</code></pre>
+      </section>
+
+      <section data-transition="slide" data-background="#b5578c" data-background-transition="zoom">
+        <h2>Project Euler</h2>
+        <p>
+          Project Euler provides a large collection of challenges in the domain of computer science and mathematics.
+          The challenges typically involve writing a small program to figure out the solution to a clever mathematical
+          formula or equation, such as a finding the sum of digits of all numbers preceding each number in a series.
+        </p>
+        <pre><code class="hljs html" style="word-wrap: break-word;">&lt;section data-background-transition="zoom"&gt;</code></pre>
+      </section>
+
+      <section data-background-iframe="https://hakim.se" data-background-interactive>
+        <div
+          style="position: absolute; width: 40%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+          <h2>HackerRank</h2>
+          <p>HackerRank provides challenges for several different domains such as Algorithms, Mathematics, SQL,
+            Functional Programming, AI, and more. You can solve all the challenge directly online</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>FreeCodeCamp</h2>
+        <ul>
+          <li>TopCoder</li>
+          <li>Coderbyte</li>
+          <li>Project Euler</li>
+          <li>HackerRank</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>FreeCodeCamp List</h2>
+        <ol>
+          <li>One is smaller than...</li>
+          <li>Two is smaller than...</li>
+          <li>Three!</li>
+        </ol>
+      </section>
+
+      <section>
+        <h2>Tabular Tables</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Item</th>
+              <th>Value</th>
+              <th>Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Apples</td>
+              <td>$1</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>Lemonade</td>
+              <td>$2</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>Bread</td>
+              <td>$3</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td>Mango</td>
+              <td>$5</td>
+              <td>22</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>CodeChef Quotes</h2>
+        <p>
+          CodeChef is an Indian-based competitive programming website that provides hundreds of challenges.
+        </p>
+        <blockquote
+          cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
+          &ldquo;If you have an important point to make, don't try to be subtle or clever. Use a pile driver. Hit the
+          point once. Then come back and hit it again. Then hit it a third time - a tremendous whack.&rdquo;
+        </blockquote>
+      </section>
+
+      <section>
+        <h2>Exercism.ioc Interconnections</h2>
+        <p>
+          Exercism is a coding challenge website that offers 3100+ challenges spanning 52 different programming
+          languages,
+          <a href="#/2/3">like this</a>.
+        </p>
+      </section>
+
+      <section>
+        <h2>freeCodeCamp's curriculum</h2>
+        <p> <a href="https://www.freecodecamp.org/learn/">freeCodeCamp</a> is a proven path to your first software
+          developer job. More than 40,000 people have gotten
+          developer jobs after completing this – including at big companies like
+          Google and Microsoft.</p>
+
+
+        <aside class="notes">
+          Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the
+          speaker notes window (hit 's' on your keyboard).
+        </aside>
+      </section>
+
+      <section>
+        <h2>FreeCodeCamp</h2>
+        <p>Presentations can be <a href="https://revealjs.com/pdf-export/">exported to PDF</a>, here's an example:</p>
+        <iframe data-src="https://www.slideshare.net/slideshow/embed_code/42840540" width="445" height="355"
+          frameborder="0" marginwidth="0" marginheight="0" scrolling="no"
+          style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+      </section>
+
+      <section>
+        <h2>Codewars</h2>
+        <p>
+          Codewars provides a large collection of coding challenges submitted and edited by their own community. You can
+          solve the challenges directly online in their editor in one of several languages.
+        </p>
+      </section>
+
+      <section data-state="customevent">
+        <h2>LeetCode</h2>
+        <p>
+          LeetCode is a popular Online Judge that provides a list of 190+ challenges that can help you prepare for
+          technical job interviews.
+        </p>
+        <pre><code class="javascript" data-trim contenteditable style="font-size: 18px;">
+Reveal.on( 'customevent', function() {
+	console.log( '"customevent" has fired' );
+} );
+					</code></pre>
+      </section>
+
+      <section>
+        <h2>Take a Moment</h2>
+        <p>
+          Press B or . on your keyboard to pause the presentation. This is helpful when you're on stage and want to take
+          distracting slides off the screen.
+        </p>
+      </section>
+
+      <section>
+        <h2>More Information</h2>
+        <ul>
+          <li>Right-to-left support</li>
+          <li><a href="https://revealjs.com/api/">Extensive JavaScript API</a></li>
+          <li><a href="https://revealjs.com/auto-slide/">Auto-progression</a></li>
+          <li><a href="https://revealjs.com/backgrounds/#parallax-background">Parallax backgrounds</a></li>
+          <li><a href="https://revealjs.com/keyboard/">Custom keyboard bindings</a></li>
+        </ul>
+      </section>
+
+      <section style="text-align: left;">
+        <h1>THE END PART</h1>
+        <p>
+          - <a href="https://slides.com">Try the online editor</a> <br>
+          - <a href="https://github.com/hakimel/reveal.js">Source code &amp; documentation</a>
+        </p>
+      </section>
+
+    </div>
+
+  </div>
+
+  <script src="reveal.js/dist/reveal.js"></script>
+  <script src="reveal.js/plugin/zoom/zoom.js"></script>
+  <script src="reveal.js/plugin/notes/notes.js"></script>
+  <script src="reveal.js/plugin/search/search.js"></script>
+  <script src="reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="reveal.js/plugin/highlight/highlight.js"></script>
+  <script>
+
+    // Also available as an ES module, see:
+    // https://revealjs.com/initialization/
+    Reveal.initialize({
+      controls: true,
+      progress: true,
+      center: true,
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+    });
+
+  </script>
+
+</body>
+
+</html>
