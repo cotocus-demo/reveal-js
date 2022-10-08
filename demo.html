@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show Presentation</title>
+    <link rel="stylesheet" href="reveal.js/dist/reset.css">
+    <link rel="stylesheet" href="reveal.js/dist/reveal.css">
+    <link rel="stylesheet" href="reveal.js/dist/theme/white.css" id="theme">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="reveal.js/plugin/highlight/monokai.css">
+</head>
+<style>
+    table,
+    th,
+    td {
+        border: 3px solid black;
+        border-collapse: collapse;
+    }
+
+    .vl {
+        border-left: 6px solid black;
+
+    }
+</style>
+
+<body>
+
+    <div class="reveal">
+
+        <!-- Any section element inside of this container is displayed as a slide -->
+        <div class="slides">
+            <section data-background="image/color.svg">
+                <a href="https://slides.com">
+                    <img src="" alt="" style="height: 180px; margin: 0 auto 4rem auto; background: transparent;"
+                        class="demo-logo">
+                </a>
+                <h1>Color Designing</h1>
+                <p>
+                    Acme Design is a full service design agency.
+                </p>
+            </section>
+
+            <section data-background="image/picker.svg">
+                <div data-id="box1" style="margin-top:10px; margin-right:400px ;">
+                    <h2>Our Services</h2>
+                    <p>We offer a variety of services and plans tailored to business needs of any kind and of any size.
+                    </p>
+                </div>
+                <div class="r-stack" style="margin-left:600px; margin-top:-400px ;">
+                    <img src="image/photo1.jpg" width="700" height="600" class="fragment fade-in-then-out">
+                    <img src="image/photo2.avif" width="700" height="600" class="fragment fade-in-then-out">
+                </div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+                <h2>Process</h2>
+                <div class="r-hstack justify-center">
+                    <div data-id="box1"
+                        style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+                    </div>
+                    <div data-id="box2"
+                        style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+                    </div>
+                    <div data-id="box3"
+                        style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;">
+                    </div>
+                </div>
+                <hr style="border:2px solid #999">
+            </section>
+            <section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+                <div class="r-hstack justify-center">
+                    <div data-id="box1" data-auto-animate-delay="0"
+                        style="background: rgb(253, 83, 111); width: 300px; height: 500px; ">
+                        <h1>1</h1>
+                        <p>Ideation</p>
+                        <p><small>During the ideation phase, expect to discuss the project in depth to clearly
+                                understand the
+                                goals and requirements.</small></p>
+                    </div>
+                    <div data-id="box2" data-auto-animate-delay="0.1"
+                        style="background: rgb(245, 245, 109); width: 300px; height: 500px; ">
+                        <h1>2</h1>
+                        <p>Build</p>
+                        <p><small>Our team makes each part of the build phase seamless with regular check-ins and
+                                deliverables.</small></p>
+                    </div>
+                    <div data-id="box3" data-auto-animate-delay="0.2"
+                        style="background: rgb(90, 202, 247); width: 300px; height: 500px; ">
+                        <h1>3</h1>
+                        <p>Launch</p>
+                        <p><small>It's time to take the product live - the end if the build phase but the beginning of
+                                being in market.</small></p>
+                    </div>
+                </div>
+            </section>
+
+            <section data-background="image/header.svg">
+                <div class="r-hstack justify-center">
+                    <div data-id="box1" style="height:500px; width:600px; margin-top:5px;">
+                        <h2>Philosophy</h2>
+                        <p>Once all is removed that can be removed, that is how designs are truly in their simplest
+                            form.
+                        </p>
+                    </div>
+                    <div data-id="box2" style=" height:700px; width:2200px; margin-bottom:200px ; ">
+                        <img src="image/wallpaper.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <section data-auto-animate>
+                <h2>Meet the Team</h2>
+                <div class="r-hstack justify-center">
+                    <div data-id="box1" data-auto-animate-delay="0"
+                        style="background: rgb(253, 83, 111); margin: 40px; ">
+                        <img src="image/man-profile2.png" height="450" width="500" alt="">
+                        <p style="margin-top:-120px;">George</p>
+                        <p4>CFO</p4>
+                    </div>
+                    <div data-id="box2" data-auto-animate-delay="0.1"
+                        style="background: rgb(245, 245, 109); margin: 40px; ">
+                        <img src="image/man-profile1.png" height="450" width="500" alt="">
+                        <p style="margin-top:-120px;">Elaine</p>
+                        <p4>CEO</p4>
+                    </div>
+                    <div data-id="box3" data-auto-animate-delay="0.2"
+                        style="background: rgb(90, 202, 247); margin: 40px;">
+                        <img src="image/man-profile3.png" height="450" width="500" alt="">
+                        <p style="margin-top:-120px;">Susan</p>
+                        <p4>Advisor</p4>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div class="r-hstack justify-center">
+                    <div
+                        style=" background-color: rgb(90, 202, 247); margin-top:-500px ; height: 60px; width: 200px; border: 2px solid rgb(90, 202, 247);">
+                        <h3 style="color:rgb(255, 255, 255);">+</h3>
+                        <div class="vl"
+                            style="margin-left: 25px; margin-top:-30px; border-left: 8px solid rgb(90, 202, 247); height: 560px;"></div>
+                    </div>
+                    <div data-id="box1" data-auto-animate-delay="0"
+                        style="background:; width:900px; margin: 40px; margin-bottom:200px; ">
+                        <h3 style="text-align:left">ACME</h3>
+                        <ul>
+                            <li>Thoughtful process</li>
+                            <li>Dedicated team</li>
+                            <li>Pixel-perfect work</li>
+                            <li>24/7 support</li>
+                        </ul>
+
+                    </div>
+                    <div
+                        style=" background-color: rgb(253, 83, 111); margin-top:-500px ; height: 60px; width: 200px; border: 2px solid rgb(253, 83, 111);">
+                        <h3 style="color:rgb(255, 255, 255);">-</h3>
+                        <div class="vl"
+                            style="margin-left: 25px; margin-top:-30px; border-left: 8px solid rgb(253, 83, 111); height: 560px;"></div>
+                    </div>
+                    <div data-id="box2" data-auto-animate-delay="0.1"
+                        style="background:; width: 900px; margin: 60px; margin-bottom: 200px; ">
+                        <h3>Competitors</h3>
+                        <ul>
+                            <li>Fragmented workflow</li>
+                            <li>Too many clients</li>
+                            <li>Rushed deliveries</li>
+                            <li>9-5 support</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section data-auto-animate data-auto-animate-unmatched="fade">
+                <div data-id="box1" data-auto-animate-delay="0">
+                    <img src="image/image1" style="height: 650px; width:450px ;">
+                    <img src="image/image2.jpg" style="height: 650px; width:450px;">
+                </div>
+
+            </section>
+
+            <section data-auto-animate>
+                <div class="r-stack">
+                    <span style="display: inline-block; margin-left: 20px; margin-bottom:-130px ; font-size:20px ;"
+                        class="fragment fade-left">
+                        Research into <br> the
+                        project space, competitors <br> and the market.
+                        <div
+                            style=" background-color: rgb(253, 83, 111); height: 50px; width: 60px; border: 2px solid rgb(253, 83, 111);">
+                            <h3>1</h3>
+                            <div class="vl" style="margin-left: 25px;height: 170px;"></div>
+                        </div>
+                    </span>
+
+                </div>
+                <div class="r-stack">
+                    <span style="display: inline-block; margin-right: 20px; margin-bottom:90px; font-size: 20px;"
+                        class="fragment fade-right">Review and <br>
+                        Iterate on the <br> designs with testing of <br> ideas, client <br> feedback and
+                        prototypes. <div
+                            style=" background-color: rgb(245, 245, 109);  height: 50px; width: 60px; border: 2px solid rgb(245, 245, 109);">
+                            <h3>2</h3>
+                            <div class="vl" style="margin-left:25px; height: 115px;"></div>
+                        </div>
+                    </span>
+                </div>
+                <hr style="border: 3px solid black; size:900px ;">
+                <div class="r-stack">
+                    <span style="display: inline-block; margin-left:20px; margin-top:130px ; font-size:20px ;"
+                        class="fragment fade-down">
+                        <div class="vl" style="margin-left:35px; margin-top:-152px; height: 140px;"></div>
+                        <div
+                            style=" background-color: rgb(90, 202, 247);  height: 50px; width: 60px; border: 2px solid rgb(90, 202, 247);">
+                            <h3>3</h3>
+                        </div> Discovery of <br> requirements <br>
+                        for a project.
+                    </span>
+                </div>
+                <div class="r-stack">
+                    <span style="display: inline-block; margin-left:300px; margin-top:-70px; font-size:20px ;"
+                        class="fragment fade-down">
+                        <div class="vl" style="margin-left:35px; margin-top:-207px; height: 140px;"></div>
+                        <div
+                            style=" background-color: rgb(253, 83, 111);  height: 50px; width: 60px; border: 2px solid rgb(253, 83, 111);">
+                            <h3>4</h3>
+                        </div> Creating a Plan <br> that sets the requirements <br>
+                        for the design and build
+                        phases.
+                    </span>
+                </div>
+                <div class="r-stack">
+                    <span style="display: inline-block; margin-right: 30px; margin-top:-180px ; font-size:20px ;"
+                        class="fragment fade-down">
+                        <div class="vl" style="margin-left:35px; margin-top:-96px; height: 140px;"></div>
+                        <div
+                            style=" background-color: rgb(245, 245, 109);  height: 50px; width: 60px; border: 2px solid rgb(245, 245, 109);">
+                            <h3>5</h3>
+                        </div> Build the <br> project to an <br> MVP to test <br> and evaluate. <br>
+                        Iterate using these learnings.
+                    </span>
+                </div>
+            </section>
+
+            <section data-background=" image/carnival-bg.png">
+
+                <ul style="margin-top:-150px; margin-right:500px;">
+                    <h2>Our Services</h2>
+                    <li>Conceptualization</li>
+                    <li>Product Design</li>
+                    <li>Development</li>
+                    <li>UI/UX Testing</li>
+                    <li>Branding</li>
+                </ul>
+            </section>
+
+            <section data-background="image/color-theme.png">
+                <h2 style="margin-right:500px ;">ACME Offices</h2>
+                <table style="width:100%;">
+                    <thead>
+                        <tr>
+                            <td>Country</td>
+                            <td>City</td>
+                            <td>Contact</td>
+                        </tr>
+                    <tbody>
+                        <tr>
+                            <td>USA</td>
+                            <td>Los Angeles</td>
+                            <td>+1 555 0194</td>
+                        </tr>
+                        <tr>
+                            <td>USA</td>
+                            <td> New York</td>
+                            <td>+1 555 0142</td>
+                        </tr>
+                        <tr>
+                            <td>Sweden</td>
+                            <td>Stockholm</td>
+                            <td>+46 555 0077</td>
+                        </tr>
+                        <tr>
+                            <td>UK</td>
+                            <td>London</td>
+                            <td>+44 555 0211</td>
+                        </tr>
+                        <tr>
+                            <td>South Korea</td>
+                            <td>Seoul</td>
+                            <td>+82 555 0138</td>
+                        </tr>
+                    </tbody>
+                    </thead>
+                </table>
+            </section>
+
+            <section data-background="image/yellow-blob.png">
+                <h3>The Summit is what drives us, but the climb itself is what matters.</h3>
+                <br>
+                <p style="margin-left:70%;"><b>– Conrad Anker</b></p>
+                <p>
+
+                </p>
+            </section>
+
+            <section data-background="image/abstract-drop.svg">
+                <h1>Available 24/7</h1>
+                <p style="font-size:70px ; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+                    Contact us via email or phone</p>
+            </section>
+
+            <section>
+                <img src="image/quality-photo.jpg" style="margin-top:12px ; height: 16em; width: 30em;" alt="image">
+
+            </section>
+
+            <section data-background="image/abstract-photo.svg">
+                <h2>Our Story</h2>
+                <p style="text-align:left ;">ACME Design Inc started a two-person operation in 2011. In their hometown
+                    of Los Angeles, California,
+                    the founders came together with a vision to design and build beautiful, simple web and mobile
+                    products. <br>
+                    In ten years, the team has grown to over one hundred members with offices in four countries. In that
+                    time the goal has always remained the same: to design impactful solutions to complex problems.</p>
+            </section>
+
+            <section data-background="image/abstract-image.svg">
+                <br><br><br>
+                <h1 style="font-size:4em ;"><b>Thank You!</b></h1>
+                <br>
+                <p style="margin-left:12em;"><b>Questions?</b></p>
+            </section>
+
+        </div>
+
+    </div>
+
+    <script src="reveal.js/dist/reveal.js"></script>
+    <script src="reveal.js/plugin/zoom/zoom.js"></script>
+    <script src="reveal.js/plugin/notes/notes.js"></script>
+    <script src="reveal.js/plugin/search/search.js"></script>
+    <script src="reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="reveal.js/plugin/highlight/highlight.js"></script>
+    <script>
+
+        // Also available as an ES module, see:
+        // https://revealjs.com/initialization/
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            center: true,
+            hash: true,
+
+            // Learn about plugins: https://revealjs.com/plugins/
+            plugins: [RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight]
+        });
+
+    </script>
+
+</body>
+
+</html>
